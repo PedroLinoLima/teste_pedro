@@ -1,0 +1,43 @@
+body 
+{
+	margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100%;
+	background-color: #2f5a73;
+}
+
+input
+{
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+	font-size: 16px;
+    text-align: left;
+}
+
+input::placeholder
+{
+    text-align: center;
+}
+
+button
+{
+    width: 200px;
+    height: 30px;
+    border-radius: 50px;
+    font-size: 12px;
+	cursor: pointer;
+}
+
+#principal
+{
+	height: 100%;
+	width: 99%;
+	padding-top: 15%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	place-items: center;
+}
